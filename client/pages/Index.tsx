@@ -72,7 +72,7 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/placeholder.svg)',
+            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F6bcee5c8f7bf404b9e0926c2a936eb8d%2Ff1319df8e7834da182d4ecbbf1840d12?format=webp&width=800)',
           }}
         />
         <div className="absolute inset-0 bg-black/50" />
