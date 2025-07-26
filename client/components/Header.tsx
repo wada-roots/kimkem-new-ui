@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
+import ContactBar from './ContactBar';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
