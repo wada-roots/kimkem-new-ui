@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        safari: {
+          orange: "hsl(var(--safari-orange))",
+          green: "hsl(var(--safari-green))",
+          brown: "hsl(var(--safari-brown))",
+          beige: "hsl(var(--safari-beige))",
+          cream: "hsl(var(--safari-cream))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
