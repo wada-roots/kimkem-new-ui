@@ -40,7 +40,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-safari-orange rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">KS</span>
               </div>
-              <span className="text-lg font-bold">KIMKEM SAFARIS</span>
+              <span className="text-lg font-bold">KIMKEN SAFARIS</span>
             </div>
             <p className="text-gray-300 mb-4 text-sm">
               Experience the magic of Africa's wilderness with Kenya's premier safari operator. 
@@ -53,7 +53,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-safari-orange" />
-                <span>info@kimkemsafaris.com</span>
+                <span>info@kimkensafaris.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2 text-safari-orange" />
@@ -130,7 +130,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between text-sm">
             <div className="text-gray-300 mb-4 md:mb-0">
-              © {currentYear} KimKem Safaris. All rights reserved.
+              © {currentYear} KimKen Safaris. All rights reserved.
             </div>
             <div className="flex space-x-6">
               <Link
