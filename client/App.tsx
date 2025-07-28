@@ -28,6 +28,7 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
     <div className="min-h-screen bg-background">
       <Header />
       {children}
+      <Footer />
       <WhatsAppFloat />
     </div>
   );
