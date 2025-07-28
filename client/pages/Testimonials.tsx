@@ -13,7 +13,7 @@ const Testimonials = () => {
       rating: 5,
       date: '2024-06-15',
       safari: 'Masai Mara Classic Safari',
-      review: 'Absolutely incredible experience! Our guide David was phenomenal - his knowledge of wildlife and passion for conservation was inspiring. We saw the Big Five and witnessed the Great Migration. KimKem Safaris exceeded all our expectations.',
+      review: 'Absolutely incredible experience! Our guide David was phenomenal - his knowledge of wildlife and passion for conservation was inspiring. We saw the Big Five and witnessed the Great Migration. KimKen Safaris exceeded all our expectations.',
       highlight: 'Best wildlife guide ever!'
     },
     {
@@ -24,7 +24,7 @@ const Testimonials = () => {
       rating: 5,
       date: '2024-06-08',
       safari: 'Amboseli Elephant Paradise',
-      review: 'The elephants in Amboseli were breathtaking, especially with Mount Kilimanjaro in the background. The accommodation was luxurious and the entire team was professional. Already planning our next safari with KimKem!',
+      review: 'The elephants in Amboseli were breathtaking, especially with Mount Kilimanjaro in the background. The accommodation was luxurious and the entire team was professional. Already planning our next safari with KimKen!',
       highlight: 'Luxury meets adventure'
     },
     {
@@ -35,7 +35,7 @@ const Testimonials = () => {
       rating: 5,
       date: '2024-05-20',
       safari: 'Samburu Adventure',
-      review: 'As a wildlife photographer, I was impressed by how KimKem positioned our vehicle for the best shots. The unique species in Samburu and the cultural experience with the local community made this trip unforgettable.',
+      review: 'As a wildlife photographer, I was impressed by how KimKen positioned our vehicle for the best shots. The unique species in Samburu and the cultural experience with the local community made this trip unforgettable.',
       highlight: 'Perfect for photography'
     },
     {
@@ -57,7 +57,7 @@ const Testimonials = () => {
       rating: 5,
       date: '2024-04-28',
       safari: 'Tsavo East & West Explorer',
-      review: 'Tsavo\'s red elephants were amazing to see. The park is massive and we felt like we had it to ourselves. Great value for money and excellent service throughout. KimKem really knows their stuff!',
+      review: 'Tsavo\'s red elephants were amazing to see. The park is massive and we felt like we had it to ourselves. Great value for money and excellent service throughout. KimKen really knows their stuff!',
       highlight: 'Excellent value and service'
     },
     {
@@ -188,7 +188,7 @@ const Testimonials = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-safari-brown mb-4">More Guest Experiences</h2>
             <p className="text-lg text-gray-600">
-              Discover why travelers choose KimKem Safaris for their African adventure
+              Discover why travelers choose KimKen Safaris for their African adventure
             </p>
           </div>
           
