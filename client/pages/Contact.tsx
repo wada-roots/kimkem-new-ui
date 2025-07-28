@@ -28,7 +28,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email',
-      details: ['info@kimkemsafaris.com', 'bookings@kimkemsafaris.com'],
+      details: ['info@kimkensafaris.com', 'bookings@kimkensafaris.com'],
       action: 'Email Us'
     },
     {
@@ -50,19 +50,19 @@ const Contact = () => {
       city: 'Nairobi (Head Office)',
       address: 'Kimathi Street, CBD',
       phone: '+254 700 123 456',
-      email: 'nairobi@kimkemsafaris.com'
+      email: 'nairobi@kimkensafaris.com'
     },
     {
       city: 'Mombasa',
       address: 'Moi Avenue, Mombasa',
       phone: '+254 700 234 567',
-      email: 'mombasa@kimkemsafaris.com'
+      email: 'mombasa@kimkensafaris.com'
     },
     {
       city: 'Maasai Mara',
       address: 'Talek Gate, Maasai Mara',
       phone: '+254 700 345 678',
-      email: 'masaimara@kimkemsafaris.com'
+      email: 'masaimara@kimkensafaris.com'
     }
   ];
 
