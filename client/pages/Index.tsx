@@ -76,36 +76,6 @@ const Index = () => {
         onLearnMoreClick={() => setSelectedSafari({ type: 'learn-more' })}
       />
 
-      {/* Features Section */}
-      <section className="py-16 bg-safari-cream">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-safari-brown mb-4">
-              Why Choose KimKen Safaris?
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We're committed to providing unforgettable safari experiences while supporting conservation efforts.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {features.map((feature, index) => (
-              <Card key={index} className="text-center border-0 shadow-lg bg-white">
-                <CardHeader>
-                  <div className="mx-auto w-16 h-16 bg-safari-green rounded-full flex items-center justify-center text-white mb-4">
-                    {feature.icon}
-                  </div>
-                  <CardTitle className="text-xl text-safari-brown">{feature.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-gray-600">
-                    {feature.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Featured Safaris Section */}
       <section id="safaris" className="py-16 bg-white">
