@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Star, Clock, Users, MapPin, Camera, Heart, Award, ChevronDown } from 'lucide-react';
+import { Star, Clock, Users, MapPin, Camera, Heart, Award, Waves, Anchor } from 'lucide-react';
 import SafariModal from '@/components/SafariModal';
+import HeroCarousel from '@/components/HeroCarousel';
 
 const Index = () => {
   const [selectedSafari, setSelectedSafari] = useState<any>(null);
@@ -67,51 +68,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-black/60 to-black/40">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F6bcee5c8f7bf404b9e0926c2a936eb8d%2Ff1319df8e7834da182d4ecbbf1840d12?format=webp&width=800)',
-          }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-        
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-safari-orange">Lifetime</span>
-            <br />
-            <span className="text-white">Safari Adventures</span>
-            <br />
-            <span className="text-white">Await You</span>
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            Experience the magic of Africa's wilderness in luxury tented camps. 
-            Create memories that will last a lifetime in Kenya's most spectacular landscapes.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-safari-green hover:bg-safari-green/90 text-white px-8 py-4 text-lg font-semibold rounded-lg"
-              onClick={() => document.getElementById('safaris')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Explore Safaris
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg font-semibold rounded-lg"
-              onClick={() => setSelectedSafari({ type: 'learn-more' })}
-            >
-              Learn More
-            </Button>
-          </div>
-        </div>
-        
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="h-8 w-8 text-white" />
-        </div>
-      </section>
+      {/* Hero Carousel Section */}
+      <HeroCarousel
+        onExploreClick={() => document.getElementById('safaris')?.scrollIntoView({ behavior: 'smooth' })}
+        onLearnMoreClick={() => setSelectedSafari({ type: 'learn-more' })}
+      />
 
       {/* Features Section */}
       <section className="py-16 bg-safari-cream">
