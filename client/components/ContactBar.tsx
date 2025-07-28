@@ -11,7 +11,7 @@ const ContactBar = () => {
           </div>
           <div className="flex items-center gap-1">
             <Mail className="h-4 w-4" />
-            <span>info@kimkemsafaris.com</span>
+            <span>info@kimkensafaris.com</span>
           </div>
           <div className="flex items-center gap-1">
             <Clock className="h-4 w-4" />
