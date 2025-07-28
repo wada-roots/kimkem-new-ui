@@ -136,7 +136,7 @@ const HeroCarousel = ({ onExploreClick, onLearnMoreClick }: HeroCarouselProps) =
       </button>
 
       {/* Slide Indicators */}
-      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
+      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-30 flex space-x-3">
         {slides.map((_, index) => (
           <button
             key={index}
