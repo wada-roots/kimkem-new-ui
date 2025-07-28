@@ -89,7 +89,13 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button className="bg-safari-green hover:bg-safari-green/90 text-white px-6 py-2 rounded-lg font-medium w-fit">
+              <Button
+                className="bg-safari-green hover:bg-safari-green/90 text-white px-6 py-2 rounded-lg font-medium w-fit"
+                onClick={() => {
+                  navigate('/contact');
+                  setIsMenuOpen(false);
+                }}
+              >
                 Book Now
               </Button>
             </nav>
