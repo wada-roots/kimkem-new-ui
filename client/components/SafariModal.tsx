@@ -14,7 +14,7 @@ const SafariModal = ({ safari, onClose }: SafariModalProps) => {
         <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
           <div className="p-6">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl font-bold text-safari-brown">About KimKem Safaris</h2>
+              <h2 className="text-2xl font-bold text-safari-brown">About KimKen Safaris</h2>
               <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-full">
                 <X className="h-5 w-5" />
               </button>
@@ -22,7 +22,7 @@ const SafariModal = ({ safari, onClose }: SafariModalProps) => {
             
             <div className="space-y-4">
               <p className="text-gray-600">
-                KimKem Safaris is Kenya's premier safari operator, specializing in luxury wildlife experiences 
+                KimKen Safaris is Kenya's premier safari operator, specializing in luxury wildlife experiences 
                 that combine adventure with conservation. Founded in 2010, we have been creating unforgettable 
                 memories for travelers from around the world.
               </p>
