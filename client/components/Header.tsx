@@ -32,7 +32,7 @@ const Header = () => {
             <div className="w-12 h-12 bg-safari-orange rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">KS</span>
             </div>
-            <span className="text-xl font-bold text-safari-brown">KIMKEM SAFARIS</span>
+            <span className="text-xl font-bold text-safari-brown">KIMKEN SAFARIS</span>
           </Link>
 
           {/* Desktop Navigation */}
