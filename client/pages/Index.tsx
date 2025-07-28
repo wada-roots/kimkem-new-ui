@@ -50,23 +50,7 @@ const Index = () => {
     },
   ];
 
-  const features = [
-    {
-      icon: <Award className="h-6 w-6" />,
-      title: 'Award Winning',
-      description: 'Recognized for excellence in safari experiences',
-    },
-    {
-      icon: <Users className="h-6 w-6" />,
-      title: 'Expert Guides',
-      description: 'Professional guides with decades of experience',
-    },
-    {
-      icon: <Heart className="h-6 w-6" />,
-      title: 'Conservation Focus',
-      description: 'Supporting wildlife conservation and local communities',
-    },
-  ];
+
 
   return (
     <div className="min-h-screen">
