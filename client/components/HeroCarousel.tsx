@@ -83,7 +83,7 @@ const HeroCarousel = ({ onExploreClick, onLearnMoreClick }: HeroCarouselProps) =
             />
             <div className="absolute inset-0 bg-black/50" />
             
-            <div className="relative z-10 h-full flex items-center justify-center">
+            <div className="relative z-20 h-full flex items-center justify-center">
               <div className="text-center text-white max-w-4xl mx-auto px-4">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6">
                   <span className="text-safari-orange">{slide.title}</span>
