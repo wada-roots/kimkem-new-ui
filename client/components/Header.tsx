@@ -54,7 +54,10 @@ const Header = () => {
 
           {/* Book Now Button */}
           <div className="hidden md:block">
-            <Button className="bg-safari-green hover:bg-safari-green/90 text-white px-6 py-2 rounded-lg font-medium">
+            <Button
+              className="bg-safari-green hover:bg-safari-green/90 text-white px-6 py-2 rounded-lg font-medium"
+              onClick={() => navigate('/contact')}
+            >
               Book Now
             </Button>
           </div>
