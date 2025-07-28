@@ -121,7 +121,7 @@ const HeroCarousel = ({ onExploreClick, onLearnMoreClick }: HeroCarouselProps) =
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-black/30 hover:bg-black/50 text-white p-3 rounded-full transition-all"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-30 bg-black/30 hover:bg-black/50 text-white p-3 rounded-full transition-all"
         aria-label="Previous slide"
       >
         <ChevronLeft className="h-6 w-6" />
