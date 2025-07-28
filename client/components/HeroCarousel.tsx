@@ -96,10 +96,10 @@ const HeroCarousel = ({ onExploreClick, onLearnMoreClick }: HeroCarouselProps) =
                   >
                     Explore Safaris
                   </Button>
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg font-semibold rounded-lg"
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg font-semibold rounded-lg bg-black/20 backdrop-blur-sm transition-all duration-300"
                     onClick={onLearnMoreClick}
                   >
                     Learn More
