@@ -19,7 +19,7 @@ const News = () => {
     {
       id: 2,
       title: 'New Conservation Partnership with Maasai Community',
-      excerpt: 'KimKem Safaris has partnered with the Maasai Mara Conservancy to launch a new community-based conservation initiative.',
+      excerpt: 'KimKen Safaris has partnered with the Maasai Mara Conservancy to launch a new community-based conservation initiative.',
       image: 'https://images.pexels.com/photos/50611/elephants-africa-amboseli-animal-50611.jpeg',
       category: 'Conservation',
       date: '2024-07-10',
