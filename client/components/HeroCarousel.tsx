@@ -21,27 +21,20 @@ const HeroCarousel = ({ onExploreClick, onLearnMoreClick }: HeroCarouselProps) =
   const slides: HeroSlide[] = [
     {
       id: 1,
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F6bcee5c8f7bf404b9e0926c2a936eb8d%2Ff1319df8e7834da182d4ecbbf1840d12?format=webp&width=800',
-      title: 'Lifetime',
-      subtitle: 'Safari Adventures',
-      description: 'Experience the magic of Africa\'s wilderness in luxury tented camps. Create memories that will last a lifetime in Kenya\'s most spectacular landscapes.'
-    },
-    {
-      id: 2,
       image: 'https://images.pexels.com/photos/26924191/pexels-photo-26924191.jpeg',
       title: 'Majestic',
       subtitle: 'Wildlife Encounters',
       description: 'Get up close with elephants against the backdrop of Mount Kilimanjaro. Witness the incredible diversity of African wildlife in their natural habitat.'
     },
     {
-      id: 3,
+      id: 2,
       image: 'https://images.pexels.com/photos/30705114/pexels-photo-30705114.jpeg',
       title: 'Big Five',
       subtitle: 'Safari Experience',
       description: 'Encounter lions, leopards, elephants, buffalo, and rhinos in Kenya\'s most famous national parks. Professional guides ensure unforgettable wildlife viewing.'
     },
     {
-      id: 4,
+      id: 3,
       image: 'https://images.pexels.com/photos/17831035/pexels-photo-17831035.jpeg',
       title: 'Sunset',
       subtitle: 'Safari Moments',
