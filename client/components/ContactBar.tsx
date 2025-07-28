@@ -2,7 +2,7 @@ import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 
 const ContactBar = () => {
   return (
-    <div className="bg-green-800 text-white py-2 px-4 text-sm">
+    <div className="bg-green-800 text-white py-2 px-4 text-sm hidden md:block">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <div className="flex items-center gap-1">
