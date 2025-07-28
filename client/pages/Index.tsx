@@ -9,6 +9,7 @@ import HeroCarousel from '@/components/HeroCarousel';
 
 const Index = () => {
   const [selectedSafari, setSelectedSafari] = useState<any>(null);
+  const navigate = useNavigate();
 
   const featuredSafaris = [
     {
