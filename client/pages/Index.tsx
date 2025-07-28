@@ -355,6 +355,7 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-safari-green text-safari-green hover:bg-safari-green hover:text-white px-8 py-3 text-lg font-semibold"
+              onClick={() => navigate('/safaris')}
             >
               View All Safari Destinations
             </Button>
