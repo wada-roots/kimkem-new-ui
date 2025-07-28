@@ -16,7 +16,7 @@ const About = () => {
       name: 'James Kimani',
       role: 'Founder & CEO',
       image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg',
-      bio: 'With over 20 years in the safari industry, James founded KimKem Safaris to share Kenya\'s incredible wildlife with the world.',
+      bio: 'With over 20 years in the safari industry, James founded KimKen Safaris to share Kenya\'s incredible wildlife with the world.',
       experience: '20+ Years'
     },
     {
@@ -71,7 +71,7 @@ const About = () => {
           }}
         />
         <div className="relative text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">About KimKem Safaris</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">About KimKen Safaris</h1>
           <p className="text-xl md:text-2xl text-gray-200">
             Passionate about wildlife. Committed to conservation. Dedicated to creating unforgettable memories.
           </p>
@@ -85,7 +85,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-safari-brown mb-6">Our Story</h2>
             <div className="prose prose-lg text-gray-600 max-w-none">
               <p className="text-lg mb-6">
-                Founded in 2010 by James Kimani, KimKem Safaris began as a dream to share Kenya's incredible 
+                Founded in 2010 by James Kimani, KimKen Safaris began as a dream to share Kenya's incredible 
                 wildlife heritage with travelers from around the world. Having grown up in a Maasai community 
                 near the Maasai Mara, James witnessed firsthand both the wonder of Kenya's wildlife and the 
                 challenges facing local communities.
@@ -97,7 +97,7 @@ const About = () => {
                 and local communities.
               </p>
               <p className="text-lg">
-                Today, KimKem Safaris operates throughout Kenya, offering everything from intimate family 
+                Today, KimKen Safaris operates throughout Kenya, offering everything from intimate family 
                 safaris to large group adventures. Our success is measured not just in happy clients, but 
                 in the positive impact we've made on conservation efforts and community development.
               </p>
